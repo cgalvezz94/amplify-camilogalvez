@@ -1,0 +1,46 @@
+version: 1
+backend:
+  phases:
+    preBuild:
+      commands:
+        - *enter command*
+    build:
+      commands:
+        - *enter command*
+    postBuild:
+        commands:
+        - *enter command*
+frontend:
+  buildpath:
+  phases:
+    preBuild:
+      commands:
+        - npm install
+    build:
+      commands:
+        - npm run build
+  artifacts:
+    baseDirectory: dist
+    files:
+        - '**/*'
+  cache:
+    paths:
+        - path # A cache path relative to the project root
+        - path # Traversing outside of the project root is not allowed
+test:
+  phases:
+    preTest:
+      commands:
+        - *enter command*
+    test:
+      commands:
+        - *enter command*
+    postTest:
+      commands:
+        - *enter command*
+  artifacts:
+    files:
+        - location
+        - location
+    configFilePath: *location*
+    baseDirectory: *location*
