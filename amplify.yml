@@ -3,6 +3,7 @@ backend:
   phases:
     preBuild:
       commands:
+        - if ! command -v fnm &> /dev/null; then curl -fsSL https://fnm.vercel.app/install | bash; fi
         - fnm install 23.7.0
         - fnm use 23.7.0
         - npm ci
