@@ -3,10 +3,12 @@ backend:
   phases:
     preBuild:
       commands:
+        - fnm install 23.7.0
+        - fnm use 23.7.0
         - npm ci
     build:
       commands:
-        - npx amplify push --yes
+        - npx ampx push --yes
     postBuild:
         commands:
         - echo "Backend Deployed!"
