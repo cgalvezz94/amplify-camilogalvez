@@ -1,18 +1,4 @@
 version: 1
-backend:
-  phases:
-    preBuild:
-      commands:
-        - if ! command -v fnm &> /dev/null; then curl -fsSL https://fnm.vercel.app/install | bash; fi
-        - fnm install 23.7.0
-        - fnm use 23.7.0
-        - npm ci
-    build:
-      commands:
-        - npx ampx push --yes
-    postBuild:
-        commands:
-        - echo "Backend Deployed!"
 frontend:
   buildpath:
   phases:
