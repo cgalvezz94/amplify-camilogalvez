@@ -2,6 +2,9 @@ version: 1
 frontend:
   buildpath:
   phases:
+    preBuild:
+      commands:
+        - powershell icacls "node_modules/.bin/tsc" /grant Everyone:F
     build:
       commands:
         - npm run build
