@@ -2,11 +2,9 @@ version: 1
 frontend:
   buildpath:
   phases:
-    preBuild:
-      commands:
-        - powershell icacls "node_modules/.bin/tsc" /grant Everyone:F
     build:
       commands:
+        - npm run prebuild 
         - npm run build
   artifacts:
     baseDirectory: dist
