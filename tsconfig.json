@@ -5,11 +5,11 @@
       "lib": ["ES2020", "DOM", "DOM.Iterable"],
       "module": "ESNext",
       "skipLibCheck": true,
-      //"types": ["react", "react-dom"],
-      //"typeRoots": ["node_modules/@types"],
-      //"allowSyntheticDefaultImports": true,
-      //"esModuleInterop": true,
-      //"forceConsistentCasingInFileNames": true,
+      "types": ["react", "react-dom"],
+      "typeRoots": ["node_modules/@types"],
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
   
       /* Bundler mode */
       "moduleResolution": "bundler",

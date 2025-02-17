@@ -2,6 +2,9 @@ version: 1
 frontend:
   buildpath:
   phases:
+    preBuild:
+      commands:
+        - npm ci
     build:
       commands:
         - npm run prebuild 
@@ -14,3 +17,6 @@ frontend:
     paths:
         - .npm/**/*
         - node_modules/**/*
+environment:
+  variables:
+    NODE_VERSION: 23.7.0
