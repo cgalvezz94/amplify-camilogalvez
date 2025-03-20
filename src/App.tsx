@@ -1,24 +1,30 @@
 //import React from 'react';
 import './App.css';
 
+
 const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Welcome to My Static Web Page</h1>
-        <p>This is a simple static page built with React and Vite.</p>
+        <p className="intro-text"> ✌️ Hi, I am Camilo! </p>
+        <h1>Welcome to my IT World</h1>
+        <p>This is a page dedicated to learning about IT in an easy and fast way</p>
+        <a 
+          href="https://www.youtube.com/c/magonicolasp/videos" 
+          target="_blank" 
+          rel="noopener noreferrer"
+        >
+          <button className="youtube-button">Visit My YouTube Channel</button>
+        </a>
       </header>
-      <div className="video">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/watch?v=HvOUxLBxCKQ&list=RDHvOUxLBxCKQ&index=1"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-          title="YouTube video"
-        ></iframe>
-      </div>
+      <div className="App-frame">
+        <h2 className="frame-title">About me</h2>
+        <p className="frame-text">
+        IT professional and tech enthusiast. Passionate for data and technology solutions. ✅
+
+        Help companies to design resilient, secure, cost-effective cloud and on-premise data solutions through data-driven decisions. ✅
+        </p>
+      </div>    
     </div>
   );
 };

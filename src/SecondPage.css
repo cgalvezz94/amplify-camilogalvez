@@ -1,0 +1,16 @@
+/* src/SecondPage.css */
+.SecondPage {
+        background-color: rgb(240, 255, 34);
+        padding: 20px;
+    }
+.video {
+    margin: 60px 0;
+    width: 100%;
+}
+  
+.video iframe {
+    border: none;
+    width: 40%;
+    height: auto;
+    aspect-ratio: 16/9;
+}

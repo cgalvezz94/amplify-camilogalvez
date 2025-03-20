@@ -1,0 +1,38 @@
+.nav-logo {
+    height: 40px; /* Adjust the logo size */
+    margin-right: auto; /* Adds spacing between the logo and the links */
+    align-self: center; /* Vertically aligns the logo */
+    cursor: pointer; /* Optional: Adds a clickable cursor */
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end; /* Aligns navigation links to the right */
+    padding: 10px;
+    background-color: #ffffff; /* Optional: Adds a light background */
+}
+
+nav a {
+    margin-left: 30px; /* Adds space between the links */
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Optional: Adds underline on hover */
+}
+
+.social-media {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center icons horizontally */
+    align-items: center; /* Center icons vertically (optional) */
+    gap: 20px; /* Adds spacing between the icons */
+    margin-top: 10px; /* Optional: Adjusts spacing from the element above */
+  }
+  
+
+p {
+    text-align: center;
+  }
+  

@@ -1,0 +1,69 @@
+/* App.css */
+.App {
+    text-align: center;
+  }
+  
+  .App-header {
+    background-image: url('./assets/pexels-eva-bronzini-7598077.jpg'); /* Adjusted path for your image */
+    background-size: cover; /* Ensures the image covers the entire header */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating */
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 100px;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+
+  }
+
+  .youtube-button {
+    background-color: #ff3030;
+    color: rgb(255, 255, 255);
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+
+  .youtube-button:hover {
+    background-color: #ff4747;
+  }
+
+  .App-header h1,
+  .App-header p,
+  .App-header a {
+    margin: 0;
+    padding: 0; /* Adjust spacing between elements */
+  }
+
+  .App-frame {
+    background-color: white;
+    padding: 40px;
+    margin: 50px auto; /* Centers the frame below the header */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1000px; /* Optional: limits the width */
+    text-align: left;
+  }
+  
+  .frame-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .frame-text {
+    font-size: 16px;
+    font-weight: normal;
+    color: #555;
+    line-height: 1.6;
+  }
+
+  
+
+
+  
