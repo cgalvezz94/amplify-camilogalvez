@@ -1,14 +1,29 @@
 /* src/SecondPage.css */
 .SecondPage {
-        background-color: rgb(240, 255, 34);
-        padding: 20px;
+    color: white;
     }
-.video {
+
+.SecondPage .App-header {
+    background-image: url('./assets/pexels-wildshots-31093867.jpg'); /* Adjusted path for your image */
+    background-size: cover; /* Ensures the image covers the entire header */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating */
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 100px;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.SecondPage .video {
     margin: 60px 0;
     width: 100%;
 }
   
-.video iframe {
+.SecondPage .video iframe {
     border: none;
     width: 40%;
     height: auto;

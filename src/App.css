@@ -47,6 +47,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 1000px; /* Optional: limits the width */
     text-align: left;
+    margin-bottom: 100px;
   }
   
   .frame-title {
@@ -62,6 +63,18 @@
     color: #555;
     line-height: 1.6;
   }
+
+  .badges {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .badge {
+    width: 100px;
+    height: auto;
+  }
+
 
   
 

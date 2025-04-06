@@ -28,7 +28,7 @@ nav a:hover {
     justify-content: center; /* Center icons horizontally */
     align-items: center; /* Center icons vertically (optional) */
     gap: 20px; /* Adds spacing between the icons */
-    margin-top: 10px; /* Optional: Adjusts spacing from the element above */
+    margin-top: 140px; /* Optional: Adjusts spacing from the element above */
   }
   
 
