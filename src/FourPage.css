@@ -63,6 +63,7 @@
     margin-bottom: 5px;
   }
 
+<<<<<<< HEAD
   @media (max-width: 768px) {
     .company-item {
         display: flex;
@@ -97,4 +98,6 @@
     
 }
 
+=======
+>>>>>>> fe9465551699b57433d418babc3f4a8dcb2e8c85
 
