@@ -47,6 +47,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 1000px; /* Optional: limits the width */
     text-align: left;
+    margin-bottom: 100px;
   }
   
   .frame-title {
@@ -63,7 +64,38 @@
     line-height: 1.6;
   }
 
+  .badges {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .badge {
+    width: 100px;
+    height: auto;
+  }
+
+
+  @media (max-width: 480px) {
+    .App-header {
+      text-align: center; /* Center-align header content */
+      padding: 10px;
+    }
+
+    .App-header h1 {
+      text-align: left; /* Adjusted font size for smaller screens */
+      font-size: 28px; /* Adjusted font size for smaller screens */
+    }
   
+    .intro-text {
+      font-size: 14px; /* Reduce font size for smaller screens */
+    }
+  
+    .youtube-button {
+      font-size: 12px; /* Scale down button text */
+      padding: 5px 10px; /* Adjust button size */
+    }
+  }
 
 
   

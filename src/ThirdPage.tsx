@@ -7,9 +7,24 @@ import kaplan from './assets/kaplan.jpg';
 
 const ThirdPage = () => {
     const institutions = [
-        { src: udd, title: "Universidad del Desarrollo", description: "Located in Chile, focusing on innovation and leadership." },
-        { src: fh, title: "FH Vorarlberg", description: "Known for its cutting-edge technology and research programs." },
-        { src: kaplan, title: "Kaplan Internatinal", description: "Global education provider specializing in test prep and certifications." },
+        { 
+            src: udd, 
+            title: "Universidad del Desarrollo",
+            subtitle: "Ingeniería Civil Industrial",
+            description: "Located in Chile, focusing on innovation and leadership." 
+        },
+        { 
+            src: fh, 
+            title: "FH Vorarlberg",
+            subtitle: "Computer Science - Exchange Program", 
+            description: "Located in Austria, known for its cutting-edge technology and research programs." 
+        },
+        { 
+            src: kaplan,
+            title: "Kaplan Internatinal Toronto",
+            subtitle: "English Language School", 
+            description: "Global education provider specializing in test prep and certifications." 
+        },
     ];
 
     return (
@@ -25,6 +40,7 @@ const ThirdPage = () => {
                     />
                     <div className="text-content">
                         <h2>{institution.title}</h2>
+                        <h3>{institution.subtitle}</h3>
                         <p>{institution.description}</p>
                     </div>
                 </div>

@@ -23,16 +23,84 @@ nav a:hover {
     text-decoration: underline; /* Optional: Adds underline on hover */
 }
 
+/* Hamburger menu button (hidden by default) */
+.hamburger-menu {
+    display: none; /* Hidden for larger screens */
+    cursor: pointer;
+    font-size: 24px; /* Adjust size of the icon */
+}
+
+/* Base styles for the menu links */
+.menu-links {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+}
+
+/* Show menu links when toggled */
+.menu-links.show {
+    display: flex;
+}
+
 .social-media {
     display: flex; /* Use flexbox */
     justify-content: center; /* Center icons horizontally */
     align-items: center; /* Center icons vertically (optional) */
     gap: 20px; /* Adds spacing between the icons */
-    margin-top: 10px; /* Optional: Adjusts spacing from the element above */
+    margin-top: 140px; /* Optional: Adjusts spacing from the element above */
   }
   
 
 p {
     text-align: center;
   }
-  
+
+/* Media query for screens smaller than 480px */
+@media (max-width: 480px) {
+    .nav-logo {
+        height: 30px; /* Smaller logo size for small screens */
+    }
+
+    /* Update navigation for small screens */
+    nav {
+        display: flex; /* Align items horizontally */
+        align-items: center; /* Center items vertically */
+        justify-content: space-between; /* Space out logo and menu */
+        height: 60px; /* Keep consistent height */
+        padding: 0; /* Remove any padding */
+        margin: 0; /* Ensure no extra spacing */
+        
+    }
+
+    nav a {
+        font-size: 14px; /* Reduce font size */
+        margin: 10px 0; /* Adjust spacing between links */
+    }
+
+    /* Show hamburger menu for small screens */
+    .hamburger-menu {
+        display: block; /* Make it visible */
+    }
+
+    /* Change menu links to vertical layout */
+    .menu-links {
+        flex-direction: column; /* Stack links vertically */
+        background-color: #ffffff; /* Optional: Add background for dropdown */
+        position: absolute; /* Position for dropdown menu */
+        top: 50px;
+        right: 10px;
+        padding: 10px;
+        border: 1px solid #ddd; /* Optional: Add border */
+    }
+
+    /* Adjust social media layout */
+    .social-media {
+        flex-direction: row; /* Stack icons vertically */
+        gap: 10px; /* Reduce spacing for small screens */
+    }
+
+    /* Optional: Responsive paragraph font size */
+    p {
+        font-size: 12px; /* Adjust size for readability */
+    }
+}
