@@ -76,7 +76,6 @@
   }
 
 
-<<<<<<< HEAD
   @media (max-width: 480px) {
     .App-header {
       text-align: center; /* Center-align header content */
@@ -87,8 +86,6 @@
       text-align: left; /* Adjusted font size for smaller screens */
       font-size: 28px; /* Adjusted font size for smaller screens */
     }
-=======
->>>>>>> fe9465551699b57433d418babc3f4a8dcb2e8c85
   
     .intro-text {
       font-size: 14px; /* Reduce font size for smaller screens */

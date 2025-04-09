@@ -17,7 +17,6 @@ const Main = () => {
             <div className="main-container">
                 <nav>
                     <img src= {logo} alt="Logo" className="nav-logo" />
-<<<<<<< HEAD
                     <div className="hamburger-menu" onClick={toggleMenu}>
                      ☰  
                     </div>
@@ -27,12 +26,6 @@ const Main = () => {
                         <Link to="/third">Education</Link>
                         <Link to="/fourth">Experience</Link>
                     </div>
-=======
-                    <Link to="/">Home</Link>
-                    {/*<Link to="/second">Videos</Link>*/}
-                    <Link to="/third">Education</Link>
-                    <Link to="/fourth">Experience</Link>
->>>>>>> fe9465551699b57433d418babc3f4a8dcb2e8c85
                 </nav>
                 <Routes>
                     <Route path="/" element={<App />} />
