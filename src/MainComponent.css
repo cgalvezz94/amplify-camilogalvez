@@ -84,6 +84,7 @@ p {
 
     /* Change menu links to vertical layout */
     .menu-links {
+        display: none; /* Hide by default */
         flex-direction: column; /* Stack links vertically */
         background-color: #ffffff; /* Optional: Add background for dropdown */
         position: absolute; /* Position for dropdown menu */
