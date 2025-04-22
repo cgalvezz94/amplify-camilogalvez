@@ -47,20 +47,25 @@
     overflow: hidden;
     margin-right: 20px;
   }
+
+
   
   .text-content {
     flex: 1;
   }
   
   .text-content ul {
+    list-style: disc;
     list-style-position: inside;
     padding-left: 0;
     margin: 0;
   }
 
   .text-content li {
-    text-align: left;
-    margin-bottom: 5px;
+    text-indent: -20px; /* Adjust to match the padding-left value */
+    padding-left: 20px; /* Align subsequent lines under the first line */
+    margin-bottom: 10px; /* Optional: Adds spacing between list items */
+    line-height: 1.5;
   }
 
   @media (max-width: 768px) {
@@ -90,9 +95,11 @@
         font-size: 15px;
     }
     
-    .company-item .text-content p {
-        font-size: 10px;
-        text-align: center;
+    .company-item .text-content ul,
+    .company-item .text-content li,        
+    .FourthPage p {
+        font-size: 12px;
+        text-align: left;
     }
     
 }

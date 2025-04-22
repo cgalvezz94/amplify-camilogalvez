@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .nav-logo {
     height: 40px; /* Adjust the logo size */
     margin-right: auto; /* Adds spacing between the logo and the links */
@@ -17,6 +19,21 @@ nav a {
     text-decoration: none;
     color: #000000;
     font-size: 16px;
+    font-family: 'Poppins', sans-serif; /* Uses the imported font */
+    font-weight: 400; /* Adjusts font weight */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+    padding: 10px; /* Adds padding around the link */
+}
+
+.language-switcher {
+    margin-left: 30px; /* Adds space between the links */
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif; /* Uses the imported font */
+    font-weight: 400; /* Adjusts font weight */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+    padding: 10px; /* Adds padding around the link */
 }
 
 nav a:hover {
@@ -80,6 +97,7 @@ p {
     /* Show hamburger menu for small screens */
     .hamburger-menu {
         display: block; /* Make it visible */
+        margin-left: 15px;
     }
 
     /* Change menu links to vertical layout */
@@ -104,4 +122,9 @@ p {
     p {
         font-size: 12px; /* Adjust size for readability */
     }
+
+    .language-switcher {
+        font-size: 12px;
+    }
+
 }

@@ -20,12 +20,13 @@
   }
 
   .youtube-button {
-    background-color: #ff3030;
+    background-color: #fd4a4a;
     color: rgb(255, 255, 255);
-    padding: 5px 15px;
+    padding: 1px 9px;
     border-radius: 5px;
     text-decoration: none;
     margin-top: 20px;
+    font-size: 20px;
   }
 
   .youtube-button:hover {
@@ -51,10 +52,12 @@
   }
   
   .frame-title {
+    text-align: center;
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     color: #333;
+    margin-bottom: 30px;
   }
   
   .frame-text {
@@ -62,6 +65,7 @@
     font-weight: normal;
     color: #555;
     line-height: 1.6;
+    margin-bottom: 40px;
   }
 
   .badges {
@@ -75,6 +79,83 @@
     height: auto;
   }
 
+  .App-contact-form .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+  }
+  
+  .App-contact-form .contact-form label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
+    margin-bottom: 15px;
+    margin-top: 1px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .App-contact-form .contact-form input,
+  .App-contact-form .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Add focus effect to input and textarea fields */
+  .App-contact-form .contact-form input:focus,
+  .App-contact-form .contact-form textarea:focus {
+    outline: none;
+    border-color: #007BFF; /* Highlighted border color */
+  }
+  
+  /* Textarea height customization */
+  .App-contact-form .contact-form textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  /* Style for the submit button */
+  .App-contact-form .contact-form button {
+    background-color: #24e61a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .App-contact-form .contact-form button:hover {
+    background-color: #5adf55;
+  }
+
+  .App-contact-form .App-frame-contact-form {
+    background-color: white;
+    padding: 40px;
+    margin: 50px auto; /* Centers the frame below the header */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1000px; /* Optional: limits the width */
+    text-align: left;
+    margin-bottom: 40px;
+    margin-top: 1px;
+  }
+
+
+
 
   @media (max-width: 480px) {
     .App-header {
@@ -86,6 +167,10 @@
       text-align: left; /* Adjusted font size for smaller screens */
       font-size: 28px; /* Adjusted font size for smaller screens */
     }
+
+    .App-header p {
+      text-align: left; /* Adjusted font size for smaller screens */
+    }
   
     .intro-text {
       font-size: 14px; /* Reduce font size for smaller screens */
@@ -95,6 +180,82 @@
       font-size: 12px; /* Scale down button text */
       padding: 5px 10px; /* Adjust button size */
     }
+
+    .App-contact-form .contact-form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 5px;
+    }
+    
+    .App-contact-form .contact-form label {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 80%;
+      margin-bottom: 15px;
+      margin-top: 1px;
+      font-size: 14px;
+      font-weight: bold;
+      color: #333;
+    }
+    
+    .App-contact-form .contact-form input,
+    .App-contact-form .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 14px;
+      font-family: Arial, sans-serif;
+      box-sizing: border-box;
+      transition: border-color 0.3s ease;
+    }
+    
+    /* Add focus effect to input and textarea fields */
+    .App-contact-form .contact-form input:focus,
+    .App-contact-form .contact-form textarea:focus {
+      outline: none;
+      border-color: #007BFF; /* Highlighted border color */
+    }
+    
+    /* Textarea height customization */
+    .App-contact-form .contact-form textarea {
+      resize: vertical;
+      height: 100px;
+    }
+    
+    /* Style for the submit button */
+    .App-contact-form .contact-form button {
+      background-color: #24e61a;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: bold;
+      margin-top: 10px;
+      transition: background-color 0.3s ease;
+    }
+    
+    .App-contact-form .contact-form button:hover {
+      background-color: #5adf55;
+    }
+  
+    .App-contact-form .App-frame-contact-form {
+      background-color: white;
+      padding: 40px;
+      margin: 50px auto; /* Centers the frame below the header */
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      max-width: 1000px; /* Optional: limits the width */
+      text-align: left;
+      margin-bottom: 40px;
+      margin-top: 1px;
+    }
+
   }
 
 

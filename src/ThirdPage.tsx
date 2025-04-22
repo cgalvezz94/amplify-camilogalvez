@@ -3,34 +3,36 @@ import './ThirdPage.css';
 import udd from './assets/udd.jpg';
 import fh from './assets/fh.jpg';
 import kaplan from './assets/kaplan.jpg';
+import { useTranslation } from 'react-i18next';
 
 
 const ThirdPage = () => {
+    const { t } = useTranslation();
     const institutions = [
         { 
             src: udd, 
-            title: "Universidad del Desarrollo",
-            subtitle: "Ingeniería Civil Industrial",
-            description: "Located in Chile, focusing on innovation and leadership." 
+            title: t("institution-1"),
+            subtitle: t("institution-title-1"),
+            description: t("institution-description-1") 
         },
         { 
             src: fh, 
-            title: "FH Vorarlberg",
-            subtitle: "Computer Science - Exchange Program", 
-            description: "Located in Austria, known for its cutting-edge technology and research programs." 
+            title: t("institution-2"),
+            subtitle: t("institution-title-2"), 
+            description: t("institution-description-2")
         },
         { 
             src: kaplan,
-            title: "Kaplan Internatinal Toronto",
-            subtitle: "English Language School", 
-            description: "Global education provider specializing in test prep and certifications." 
+            title: t("institution-3"),
+            subtitle: t("institution-title-3"), 
+            description: t("institution-description-3") 
         },
     ];
 
     return (
         <div className='ThirdPage'>
-            <h1>Education</h1>
-            <p>A journey of learning across different places, where knowledge and experience have shaped my path.</p>
+            <h1>{t('education-title')}</h1>
+            <p>{t('education-description')}</p>
             {institutions.map((institution, index) => (
                 <div key={index} className="education-item">
                     <img

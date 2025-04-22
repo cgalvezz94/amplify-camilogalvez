@@ -1,5 +1,5 @@
 // src/Main.tsx
-//import React, { useState } from 'react';
+import LanguageSwitcher from './LanguageSwitcher';
 import { useState } from 'react';
 import { FaYoutube, FaGithub, FaLinkedin, FaFacebook } from 'react-icons/fa';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
@@ -9,8 +9,10 @@ import ThirdPage from './ThirdPage';
 import FourthPage from './FourthPage';
 import './MainComponent.css';
 import logo from './assets/camilo-galvez-logo.png';
+import { useTranslation } from 'react-i18next';
 
 const Main = () => {
+    const { t } = useTranslation();
     const [isMenuOpen, setMenuOpen] = useState(false);
     const toggleMenu = () => setMenuOpen(!isMenuOpen); 
     return (
@@ -18,21 +20,23 @@ const Main = () => {
             <div className="main-container">
                 <nav>
                     <img src= {logo} alt="Logo" className="nav-logo" />
+                    <LanguageSwitcher className="language-switcher"/>
                     <div className="hamburger-menu" onClick={toggleMenu}>
                      ☰  
                     </div>
                     <div className= {`menu-links ${isMenuOpen ? 'show' : ''}`}>
-                        <Link to="/">Home</Link>
+                        <Link to="/">{t('home')}</Link>
                         {/*<Link to="/second">Videos</Link>*/}
-                        <Link to="/third">Education</Link>
-                        <Link to="/fourth">Experience</Link>
+                        <Link to="/education">{t('education')}</Link>
+                        <Link to="/experience">{t('experience')}</Link>
                     </div>
                 </nav>
+                {/*<LanguageSwitcher />*/}
                 <Routes>
                     <Route path="/" element={<App />} />
                     {/*<Route path="/second" element={<SecondPage />} />*/}
-                    <Route path="/third" element={<ThirdPage />} />
-                    <Route path="/fourth" element={<FourthPage />} />
+                    <Route path="/education" element={<ThirdPage />} />
+                    <Route path="/experience" element={<FourthPage />} />
                 </Routes>
                 <div className="social-media">
                     <a href="https://www.youtube.com/@one-minute-channel" target="_blank" rel="noopener noreferrer">
@@ -48,7 +52,7 @@ const Main = () => {
                         <FaFacebook size={40} color="#4267B2" />
                     </a>
                 </div>
-                <p>Developed by Gálvez Enterprise on React.</p>
+                <p>{t('footerText')}</p>
             </div>
         </Router>
     );

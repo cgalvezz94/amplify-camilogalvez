@@ -1,0 +1,71 @@
+{
+    "introText": "✌️ Hi, I am Camilo!",
+    "welcomeTitle": "Welcome to my IT World",
+    "welcomeDescription": "This is a page dedicated to learning about IT in an easy and fast way",
+    "youtubeButton": "Visit My YouTube Channel",
+    "aboutMeTitle": "About me",
+    "aboutMeDescription": "Industrial Engineer with experience in leading companies in the financial, retail, and insurance sectors, performing data engineering, analytics, and cloud architecture roles. He has led cloud migration projects, ETL pipeline development, and data modeling, optimizing processing and decision-making. He is a professional with advanced English proficiency, AWS certifications, and experience working with internal and external clients in Latin America, the United States, and India.",
+    "footerText": "Developed by Gálvez Enterprise on React",
+    "contact-me": "Contact me",
+    "title": "Title",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "submit": "Send",
+    "home": "Home",
+    "education": "Education",
+    "experience": "Experience",
+    "education-title": "Education",
+    "education-description": "A journey of learning across different places, where knowledge and experience have shaped my path.",
+    "institution-1": "Universidad del Desarrollo",
+    "institution-title-1": "Industrial Engineering",
+    "institution-description-1": "Located in Chile, focusing on innovation and leadership.",
+    "institution-2": "FH Vorarlberg",
+    "institution-title-2": "Computer Science - Exchange Program",
+    "institution-description-2": "Located in Austria, known for its cutting-edge technology and research programs.",
+    "institution-3": "Kaplan Internatinal Toronto",
+    "institution-title-3": "English Language School",
+    "institution-description-3": "Global education provider specializing in test prep and certifications.",
+    "experienceTitle": "Experience",
+    "experienceDescription": "A journey of learning across different places, where knowledge and experience have shaped my path.",
+    "libertyTitle": "Senior Data Solutions Analyst",
+    "libertySubtitle": "Liberty Seguros Andes - General Insurance Company",
+    "libertyDescription": [
+      "Led a data team, overseeing five professionals, in a software development project for an insurance broker web portal in Chile, allowing a 50% reduction in data update times and improving user experience",
+      "Participated in a migration project between Liberty and HDI companies, being responsible for AWS service architecture, meeting 100% of TSA timelines",
+      "Designed efficient, resilient, and secure architectures with IAM in AWS for EC2 instances in data processing from Redshift to Microsoft PowerBI",
+      "Designed event-driven architecture using AWS Eventbridge for orchestrating asynchronous processes",
+      "Improved ETL processes with AWS Glue and Lambda functions, using Python and PySpark, achieving a 30% reduction in processing times and automating processes through triggers",
+      "Orchestrated ETL processes using AWS Glue Workflows to reduce latency times",
+      "Participated in data decommissioning projects from SAS to AWS, increasing processing speed by up to 60% in analytics models for the Pricing team",
+      "Collaborated in defining infrastructure as code through AWS CloudFormation for development, QA, and production environments using Git commands in the organization's Github repositories",
+      "Deployed various artifacts in Development and QA environments through CI/CD pipelines with Jenkins, automating deployment processes and reducing manual tasks"
+    ],
+    "lvTitle": "Data Engineer",
+    "lvSubtitle": "LarrainVial - Investment Fund Administrator",
+    "lvDescription": [
+      "Developed ETL processes with SSIS, integrating more than 3 data systems for the creation and maintenance of the Financial Datamart, improving decision-making",
+      "Utilized SQL Server as an on-premise database system along with C# language within the .NET framework, reducing processing times by up to 25%",
+      "Orchestrated data flows using jobs in SQL Server Agent and Stored Procedures in SQL Server environment, minimizing manual tasks for better control and monitoring",
+      "Collaborated with stakeholders to address various business needs and translate them into different technical requirements, addressing various data integration strategies"
+    ],
+    "pucTitle": "Business Intelligence Analyst",
+    "pucSubtitle": "Pontificia Universidad Católica de Chile & 4A Talento - IT Consulting",
+    "pucDescription": [
+      "Designed dimensions and fact tables for dimensional data modeling, using star and snowflake schemas. Aimed at creating an organizational data warehouse for optimal data-based analysis",
+      "Utilized Apache Spark as a Big Data framework for developing data pipelines in Databricks, integrating multiple datasets through languages like Scala and SparkSQL, generating high scalability and distributed processing",
+      "Worked with a Medallion architecture for data management in the organizational Data Lake, allowing easy integration with Azure Data Factory for optimal workflow orchestration, enabling lower latency times, quality, and accessibility in data"
+    ],
+    "abcdinTitle": "Data Analyst",
+    "abcdinSubtitle": "ABCDIN - Retail Financial - Credit Risk",
+    "abcdinDescription": [
+      "Analyze data with IBM Netezza and SPSS Modeler, identifying insights and presenting key findings, facilitating data-driven decisions across the organization",
+      "Collaborate with data scientists to program business logic based on analytical models for the Analytics team, reducing credit risk nationwide"
+    ]
+
+
+
+
+
+  }

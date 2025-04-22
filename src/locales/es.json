@@ -1,0 +1,67 @@
+{
+    "introText": "✌️ Hola, Soy Camilo!",
+    "welcomeTitle": "Bienvenido a mi mundo TI",
+    "welcomeDescription": "Esta es una pagina dedicada para aprender sobre TI de manera facil y rapida",
+    "youtubeButton": "Visita mi canal de YouTube",
+    "aboutMeTitle": "Acerca de mi",
+    "aboutMeDescription": "Ingeniero Industrial con experiencia en liderar empresas de los sectores financiero, retail y seguros, desempeñando roles de ingeniería de datos, analítica y arquitectura en la nube. Ha liderado proyectos de migración a la nube, desarrollo de pipelines ETL y modelado de datos, optimizando el procesamiento y la toma de decisiones. Profesional con dominio avanzado del inglés, certificaciones AWS y experiencia trabajando con clientes internos y externos en Latinoamérica, Estados Unidos e India.",
+    "footerText": "Desarrollado por Gálvez Enterprise en React",
+    "contact-me": "Contáctame",
+    "title": "Titulo",
+    "name": "Nombre",
+    "email": "Email",
+    "phone": "Teléfono",
+    "message": "Mensaje",
+    "submit": "Enviar",
+    "home": "Inicio",
+    "education": "Educación",
+    "experience": "Experiencia",
+    "education-title": "Educación",
+    "education-description": "Un viaje de aprendizaje a través de diferentes lugares, donde el conocimiento y la experiencia han dado forma a mi camino.",
+    "institution-1": "Universidad del Desarrollo",
+    "institution-title-1": "Ingeniería Civil Industrial",
+    "institution-description-1": "Ubicada en Chile, enfocada en la innovación y el liderazgo.",
+    "institution-2": "FH Vorarlberg",
+    "institution-title-2": "Ciencias de la Computación - Programa de Intercambio",
+    "institution-description-2": "Ubicada en Austria, conocida por su tecnología de vanguardia y programas de investigación.",
+    "institution-3": "Kaplan Internatinal Toronto",
+    "institution-title-3": "Escuela de Idiomas de Inglés",
+    "institution-description-3": "Proveedor global de educación especializado en preparación para exámenes y certificaciones.",
+    "experienceTitle": "Experiencia",
+    "experienceDescription": "Un viaje de aprendizaje a través de diferentes lugares, donde el conocimiento y la experiencia han dado forma a mi camino.",
+    "libertyTitle": "Analista de Soluciones de Datos Senior",
+    "libertySubtitle": "Liberty Seguros Andes - Compañía de Seguros Generales",
+    "libertyDescription": [
+      "Lidera equipo de datos, supervisando a cinco profesionales, en proyecto de desarrollo de software para un portal web de corredores seguros en Chile, permitiendo una reducción de tiempos de actualización de datos en 50% y mejorando la experiencia del usuario",
+      "Participa en proyecto de migración de infraestructura entre las compañías Liberty y HDI, siendo responsable de la arquitectura de servicios AWS, cumpliendo al 100% los plazos de tiempos de TSA",
+      "Diseña arquitecturas eficientes, resilientes y seguras con IAM en AWS para instancias EC2 en el procesamiento de datos en Redshift a Microsoft PowerBI",
+      "Diseña arquitectura event-driven utilizando AWS Eventbridge para orquestación de procesos asíncronos",
+      "Mejora procesos ETL con AWS Glue y funciones Lambdas, a través de Python y PySpark, logrando una reducción del 30% en tiempos de procesamiento y automatización de procesos mediante disparadores",
+      "Orquesta procesos ETL mediante AWS Glue Workflows para reducir tiempos de latencia",
+      "Participa en proyectos de decomiso de datos de SAS a AWS, aumentando la velocidad de procesamiento de hasta 60% en modelos de analítica para el equipo de Pricing",
+      "Colabora en la definición de infraestructura como código a través de AWS CloudFormation para ambientes de desarrollo, QA y Producción mediante comandos Git en repositorios Github de la organización",
+      "Despliega distintos artefactos en ambientes de Desarrollo y QA a través de pipelines CI/CD con Jenkins, automatizando procesos de despliegue y disminuyendo procesos manuales"
+    ],
+    "lvTitle": "Ingeniero de Datos",
+    "lvSubtitle": "LarrainVial - Administradora General de Fondos de Inversión",
+    "lvDescription": [
+      "Desarrolla procesos ETL con SSIS, integrando más de 3 sistemas de datos para la creación y mantencion del Datamart Financiero, mejorando la toma de decisiones",
+      "Utiliza SQL Server como sistema de bases de datos on-premise junto con el lenguaje C# dentro del framework .NET, reduciendo tiempos de procesamiento en hasta un 25%",
+      "Orquesta flujos de datos utilizando jobs en SQL Server Agent y Stored Procedures en ambiente SQL Server, minimizando tareas manuales para un mejor control y monitoreo",
+      "Colabora con stakeholders para atender distintas necesidades de negocio para traducirlas en distintos requerimientos técnicos, abordando distintas estrategias de integración de datos"
+    ],
+    "pucTitle": "Analista de Business Intelligence",
+    "pucSubtitle": "Pontificia Universidad Católica de Chile y 4A Talento - Consultora TI",
+    "pucDescription": [
+      "Diseña dimensiones y tablas de hechos para un modelado de datos dimensional, mediante esquemas estrella y copo de nieve. Con el objetivo de generar un data warehouse organizacional, para un óptimo análisis basado en datos",
+      "Utiliza Apache Spark como framework de Big Data para el desarrollo de pipelines de datos en Databricks, integrando múltiples data sets a través de lenguajes como Scala y SparkSQL, generando alta escalabilidad y procesamiento distribuido",
+      "Trabaja con una arquitectura Medallion para la gestión de datos en el Data Lake organizacional, permitiendo una fácil integración con Azure Data Factory para una óptima orquestación de flujos de trabajos, permitiendo menores tiempos de latencia, calidad y accesibilidad en los datos"
+    ],
+    "abcdinTitle": "Analista de Datos",
+    "abcdinSubtitle": "ABCDIN - Retail Financiero – Riesgo Crediticio",
+    "abcdinDescription": [
+      "Analiza datos con IBM Netezza y SPSS Modeler, identificando insights y presentando hallazgos clave, facilitando decisiones basadas en datos en toda la organización",
+      "Colabora con científicos de datos para programar la lógica de negocio basada en modelos analíticos para el equipo de Analytics, disminuyendo el riesgo crediticio a nivel nacional"
+    ]
+
+  }
